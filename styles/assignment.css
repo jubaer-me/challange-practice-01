@@ -8,6 +8,10 @@
 }
 
 /* shared Style */
+.secondary-bg{
+    background-color: #c2d1ec;
+}
+
 .text-primary{
     color: rgb(37, 34, 199);
 }
@@ -15,17 +19,28 @@
     color: #474747;
 }
 .btn-primary{
-    background-color: blue;
+    background-color: rgb(55, 55, 235);
     font-weight: bold;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
 
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #252432;
+}  
+.text-center {
+    text-align: center;
+} 
+
+    /* header style */
 }
 .header{
     background-image:url(../styles/Assets/Hero-bg.png) ;
 }
-
+ 
 
 /* nav style */
 nav{
@@ -51,5 +66,112 @@ nav ul li{
     justify-content: space-between;
     margin: 0 40px 0 230px
 }
-.  
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    text-align: center;
+}   
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: bold;
+    color: blue;
+    font-size: 30px;
+}
+/* users section */
+.users-review{
+    display: flex;
+    gap: 24px;
     
+}
+.user{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(181, 185, 221);
+}
+.focus{
+    text-align: center;
+}
+.image{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+/* Footer part */
+
+.footer-column{
+    display: flex;
+   padding: 130px 150px;
+   gap: 100px;
+   width: 100%;
+
+}
+.secondary-bg{
+    display: flex;
+}
+footer input[type="text"],footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: rgb(243, 238, 238);
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+/* Last part */
+.info-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.info-logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4e5cf3;
+  margin-bottom: 15px;
+}
+
+.info-description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.info-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.info-nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.info-nav a:hover {
+  color: #4e5cf3;
+}
